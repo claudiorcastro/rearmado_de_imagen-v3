@@ -12,4 +12,4 @@ const section = document.querySelector('section');
 setTimeout(function() {
     section.classList.add('active')
 
-})
+},14000)
