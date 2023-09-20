@@ -33,28 +33,28 @@ section h2{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    perspective: 500px; 
 }
 .banner .blocks{
     position: relative;
     display: block;
     width: 5vw;
     height: 5vh;
-    background-color: #fff;
     animation: animate 2s ease-in-out forwards;
     animation-delay: 1s;
 }
 @keyframes animate {
     0% { 
         transform: translateZ(2000px);
-        background-image: url(freddy2.jpg);
+        background: url(freddy2.jpg);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        
     }
     100% {
         transform: translateZ(0px);
-        background-image: url(freddy2.jpg);
+        background: url(freddy2.jpg);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
